@@ -1,0 +1,70 @@
+body {
+  background-color: #E1FAF9;
+  font-family: 'Roboto', sans-serif;
+  color: #01110A;
+  font-size: 20px;
+  line-height: 15px;
+}
+
+h1, h2 {
+  color: #545863;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  line-height: 10px;
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.note {
+  font-size: 10px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 80px;
+}
+
+.url {
+  background-color: #6B72E1;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 10px;
+}
+.url:hover {
+  background-color: black;
+  color: white;
+}
+
+.list_inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
